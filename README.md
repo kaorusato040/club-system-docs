@@ -64,8 +64,12 @@
 ```
 
 ## 技術スタック（想定）
+```text
 - Frontend: Next.js（TypeScript）
 - Backend: Spring Boot（Java）
-- DB: PostgreSQL
-- Auth: Spring Security
+- Database: PostgreSQL
+- Security: Spring Security（JWT / RBAC）
+- DB Migration: Flyway
 - Infra: AWS（ECS / RDS / ALB）
+- CI/CD: GitHub Actions
+```
