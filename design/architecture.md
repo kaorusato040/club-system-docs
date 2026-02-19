@@ -30,15 +30,14 @@
 
 ---
 
-## 4. 採用技術（フェーズ1想定）
-
+## 4. 採用技術
 | 層 | 技術 |
 |---|---|
 | Frontend | Next.js |
 | Backend | Spring Boot |
+| セキュリティ | Spring Security（JWT認証・RBAC） |
 | Database | PostgreSQL |
 | DBマイグレーション | Flyway（DDL管理・バージョン管理） |
-| 認証 | JWTベース認証 |
 | API | REST（JSON） |
 | ビルドツール | Gradle |
 | CI/CD | GitHub Actions |
@@ -97,3 +96,4 @@ Service層（業務ロジック）
 Repository層（DBアクセス）
    ↓
 Database
+```
