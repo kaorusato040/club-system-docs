@@ -46,15 +46,21 @@
 本リポジトリは、以下の構成でドキュメントを管理しています。
 
 ```text
-docs/
-├── 00_overview/        # システム概要
-├── 01_requirements/    # 要件定義
-├── 02_ui/              # 画面一覧・画面遷移
-├── 03_workflow/        # 状態遷移・操作ルール
-├── 04_domain/          # ER図・DB設計方針
-├── 05_api/             # API仕様・エラー設計
-├── 06_infra/           # 構成図・デプロイ設計
-└── diagrams/           # 各種図（画像）
+## 1. 概要
+- overview/system.md
+
+## 2. 要件定義
+- requirements/functional.md
+- requirements/non-functional.md
+
+## 3. 設計
+- design/architecture.md
+- design/db.md
+- design/api-spec.md
+- design/api-error-spec.md
+- design/screen-design.md
+- design/screen-transition.md
+
 ```
 
 ## 技術スタック（想定）
